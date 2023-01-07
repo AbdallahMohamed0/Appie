@@ -525,3 +525,14 @@
     padding: 6rem 2.8rem;
   }
 }
+
+/**************************/
+@media (max-width: 23.75em) {
+  .copyright-app-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    margin-top: 3.5rem;
+  }
+}
