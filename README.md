@@ -15,4 +15,4 @@ Website sections:
 
 ## [live demo](https://appie-abdo.netlify.app/)
 
-![image](image.png)
+![image](https://user-images.githubusercontent.com/113191982/211173184-bdee5c3d-935c-4f90-a827-0c7987256b04.png)
