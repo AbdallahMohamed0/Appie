@@ -172,6 +172,8 @@ input {
   right: 70px;
   transform: translateY(-50%);
   color: #ff3e66;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .feedback {

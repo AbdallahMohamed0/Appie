@@ -16,6 +16,16 @@
   .hero {
     padding-top: 24rem;
   }
+
+  .input--email {
+    top: 55%;
+    left: 20px;
+  }
+
+  .input--arrow {
+    top: 55%;
+    right: 70px;
+  }
 }
 
 /**************************/
@@ -240,16 +250,6 @@
 
   .testimonial-container {
     padding: 6rem 4rem;
-  }
-
-  .input--email {
-    top: 55%;
-    left: 20px;
-  }
-
-  .input--arrow {
-    top: 55%;
-    right: 60px;
   }
 }
 
