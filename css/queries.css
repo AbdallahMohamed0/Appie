@@ -195,21 +195,24 @@
 }
 
 /**************************/
-@media (max-width: 53.75em) {
+@media (max-width: 57.5em) {
   .main-nav-list {
     display: none;
   }
 
+  .menu-icon {
+    display: inline-block;
+  }
+}
+
+/**************************/
+@media (max-width: 53.75em) {
   .nav-cta-box {
     gap: 2.4rem;
   }
 
   .hero-primary-header {
     font-size: 4.5rem;
-  }
-
-  .menu-icon {
-    display: inline-block;
   }
 
   .copyright {
@@ -237,6 +240,16 @@
 
   .testimonial-container {
     padding: 6rem 4rem;
+  }
+
+  .input--email {
+    top: 55%;
+    left: 20px;
+  }
+
+  .input--arrow {
+    top: 55%;
+    right: 60px;
   }
 }
 
@@ -523,6 +536,10 @@
 @media (max-width: 29em) {
   .testimonial-container {
     padding: 6rem 2.8rem;
+  }
+
+  .download-app-text br {
+    display: none;
   }
 }
 

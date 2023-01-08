@@ -169,7 +169,7 @@ input {
 .input--arrow {
   position: absolute;
   top: 50%;
-  right: 60px;
+  right: 70px;
   transform: translateY(-50%);
   color: #ff3e66;
 }
