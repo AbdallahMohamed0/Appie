@@ -1,0 +1,555 @@
+/**************************/
+@media (max-width: 86em) {
+  html {
+    font-size: 60%;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-text-box {
+    font-size: 5.8rem;
+  }
+
+  .hero {
+    padding-top: 24rem;
+  }
+}
+
+/**************************/
+@media (max-width: 79em) {
+  html {
+    font-size: 58%;
+  }
+
+  .marketing {
+    height: 50rem;
+    padding-left: 0rem;
+  }
+
+  .input--email {
+    top: 55%;
+    left: 20px;
+  }
+
+  .input--arrow {
+    top: 55%;
+    right: 70px;
+  }
+}
+
+/**************************/
+@media (max-width: 74em) {
+  .marketing {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .marketing-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .marketing-description {
+    padding: 0rem 12rem 4rem 12rem;
+  }
+
+  .marketing-sub-title {
+    margin-top: 3.2rem;
+  }
+}
+
+/**************************/
+@media (max-width: 68em) {
+  .video-description {
+    padding-left: 0;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3.5rem;
+  }
+}
+
+/**************************/
+@media (max-width: 67em) {
+  .wherever-option {
+    width: 95%;
+  }
+
+  .wherever-title {
+    padding: 0 28rem;
+  }
+
+  .testimonial-container {
+    padding: 10rem 9rem;
+  }
+
+  .testimonials-users-slider {
+    position: absolute;
+    right: 9rem;
+    bottom: 10rem;
+  }
+}
+
+/**************************/
+@media (max-width: 62em) {
+  .wherever-body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .wherever-img img {
+    width: 70%;
+  }
+
+  .wherever-title {
+    padding: 0 15rem;
+  }
+
+  .wherever-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 4rem;
+
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+  .wherever-options {
+    padding: 0 10rem;
+  }
+
+  .section-how-items {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5rem;
+    column-gap: 6.5rem;
+  }
+
+  .how-heading {
+    font-size: 4rem;
+  }
+
+  .how-sub {
+    font-size: 1.6rem;
+  }
+
+  .pricing-plans {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 7rem 10rem;
+
+    background-size: cover;
+  }
+
+  .testimonials-users-slider {
+    display: none;
+  }
+
+  .testimonial-content {
+    text-align: center;
+  }
+}
+
+/**************************/
+@media (max-width: 60em) {
+  .section-features-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .feedback {
+    margin-bottom: 5rem;
+  }
+
+  .hero {
+    padding-top: 16rem;
+  }
+
+  .hero-primary-header {
+    width: 130%;
+    font-size: 5rem;
+  }
+
+  .tutorial {
+    grid-template-columns: 1fr;
+  }
+
+  .image-slider-btns {
+    display: none;
+  }
+}
+
+/**************************/
+@media (max-width: 57.5em) {
+  .main-nav-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline-block;
+  }
+}
+
+/**************************/
+@media (max-width: 53.75em) {
+  .nav-cta-box {
+    gap: 2.4rem;
+  }
+
+  .hero-primary-header {
+    font-size: 4.5rem;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+}
+
+/**************************/
+@media (max-width: 51em) {
+  .marketing-img {
+    display: none;
+  }
+
+  .marketing-description {
+    padding: 0rem 7rem 4rem 7rem;
+  }
+
+  .options {
+    gap: 3.5rem;
+  }
+
+  .testimonial-container {
+    padding: 6rem 4rem;
+  }
+}
+
+/**************************/
+@media (max-width: 48em) {
+  .row-two {
+    gap: 3.2rem;
+  }
+}
+
+/**************************/
+@media (max-width: 45em) {
+  .options {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .marketing-description {
+    padding: 0rem 2.5rem 3rem 2.5rem;
+  }
+
+  .marketing-title {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+
+  .marketing-description-text {
+    width: 100%;
+  }
+
+  .marketing-sub-title,
+  .marketing-description-text,
+  .marketing-title {
+    text-align: center;
+  }
+
+  .pricing-plans {
+    grid-template-columns: 1fr;
+  }
+
+  .home {
+    right: 2rem;
+    bottom: 3rem;
+  }
+}
+
+/**************************/
+@media (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+
+  .input {
+    width: 95%;
+  }
+
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-img-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 4.5rem;
+  }
+
+  .hero-img .image {
+    width: 40%;
+  }
+
+  .hero-primary-header {
+    width: 90%;
+    font-size: 3.6rem;
+    line-height: 40px;
+  }
+
+  .nav-cta-box .nav-cta {
+    display: none;
+  }
+
+  .header {
+    padding: 0 2rem;
+  }
+
+  .hero-text-box {
+    padding-left: 0rem;
+  }
+
+  .hero {
+    padding: 16rem 0rem 0rem 2rem;
+  }
+
+  .section-features {
+    padding: 1rem 2rem;
+  }
+
+  .features-sub {
+    font-size: 3.4rem;
+  }
+
+  .features-container {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wherever-description {
+    padding: 0 3rem;
+  }
+
+  .wherever-img img {
+    width: 80%;
+  }
+
+  .wherever-options {
+    padding: 0 2rem;
+  }
+
+  .wherever-option {
+    padding: 2.6rem;
+    width: 100%;
+  }
+
+  .wherever-option-description-title {
+    font-size: 1.8rem;
+  }
+
+  .wherever-title {
+    padding: 0 3.5rem;
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+
+  .section-how-items {
+    grid-template-columns: 1fr;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .tutorial {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .how-heading {
+    font-size: 3.2rem;
+  }
+
+  .sponser {
+    padding: 0 2rem 4.5rem 2rem;
+  }
+
+  .sponser-title {
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+  }
+
+  .footer {
+    padding: 7rem 2rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-part-list {
+    text-align: center;
+  }
+
+  .last-part-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .testimonial {
+    padding: 5.5rem 2rem;
+  }
+
+  .pricing-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .pricing-header-title {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+  }
+}
+
+/**************************/
+@media (max-width: 35em) {
+  .sponser-title {
+    font-size: 3rem;
+  }
+
+  .footer {
+    padding: 7rem 2rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-part-list {
+    text-align: center;
+  }
+
+  .last-part-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .testimonial {
+    padding: 5.5rem 2rem;
+  }
+
+  .pricing-section {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .pricing-header-title {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+  }
+}
+
+/**************************/
+@media (max-width: 32em) {
+  .download-app-btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .download-app-title {
+    font-size: 3.6rem;
+    line-height: 4.1rem;
+  }
+
+  .download-apps {
+    padding: 0 2rem;
+  }
+
+  .download-app-btn {
+    padding: 1.4rem 6rem 1.4rem 5rem;
+    width: 80%;
+  }
+
+  .download-app-btns {
+    width: 100%;
+  }
+}
+
+/**************************/
+@media (max-width: 29em) {
+  .testimonial-container {
+    padding: 6rem 2.8rem;
+  }
+
+  .download-app-text br {
+    display: none;
+  }
+}
+
+/**************************/
+@media (max-width: 23.75em) {
+  .copyright-app-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+    margin-top: 3.5rem;
+  }
+}
