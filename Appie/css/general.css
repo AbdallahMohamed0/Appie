@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.arr-icon {
+  font-size: 1.8rem;
+}
+
+.sub-heading {
+  font-size: 4.4rem;
+  line-height: 5.4rem;
+  font-weight: 900;
+  color: #0e1133;
+}
+
+.sub-heading-description {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-top: 1.1rem;
+  color: #646464;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem #0e1133;
+}
+
+input[type="email"]:focus {
+  box-shadow: none;
+}
+
+/* HOme Button */
+.home:link,
+.home:visited {
+  display: inline-block;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  padding: 1rem;
+  background-color: #ff3e66;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  z-index: 100;
+  opacity: 50%;
+  transition: all 0.4s;
+}
+
+.home:hover,
+.home:active {
+  opacity: 100%;
+  color: #fff;
+}
+
+.home-icon {
+  font-size: 2rem;
+}
+
+/*  Features repeated */
+
+.feature-cyan {
+  background-color: #2facfc;
+}
+
+.feature-item-cyan:hover {
+  border-top: 3px solid #2facfc;
+}
+
+.feature-purple {
+  background-color: #ea4d89;
+}
+
+.feature-item-purple:hover {
+  border-top: 3px solid #ea4d89;
+}
+
+.feature-blue {
+  background-color: #3679ff;
+}
+
+.feature-item-blue:hover {
+  border-top: 3px solid #3679ff;
+}
+
+.feature-orange {
+  background-color: #f67842;
+}
+
+.feature-item-orange:hover {
+  border-top: 3px solid #f67842;
+}
+
+.feature-darkblue {
+  background-color: #6b88f7;
+}
+
+.feature-item-darkblue:hover {
+  border-top: 3px solid #6b88f7;
+}
+
+.feature-green {
+  background-color: #3bb094;
+}
+
+.feature-item-green:hover {
+  border-top: 3px solid #3bb094;
+}
+
+/*  wherever repeated */
+
+.circle {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle::after {
+  content: " ";
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+}
+
+.wherever-red .circle {
+  background-color: #ff3e66;
+}
+
+.wherever-red .circle::after {
+  background-color: hsla(348, 100%, 62%, 0.14);
+}
+
+.wherever-blue .circle {
+  background-color: #2eacfc;
+}
+
+.wherever-blue .circle::after {
+  background-color: rgba(46, 173, 252, 0.14);
+}
+
+.wherever-green .circle {
+  background-color: #33c956;
+}
+
+.wherever-green .circle::after {
+  background-color: rgba(51, 201, 86, 0.141);
+}
+
+.wherever-red:hover {
+  box-shadow: 0px 0px 0px 1px #ff3e66;
+}
+
+.wherever-blue:hover {
+  box-shadow: 0px 0px 0px 1px #2eacfc;
+}
+
+.wherever-green:hover {
+  box-shadow: 0px 0px 0px 1px #33c956;
+}
