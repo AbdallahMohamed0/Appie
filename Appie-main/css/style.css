@@ -159,7 +159,7 @@ input {
 
 .input--email {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 20px;
   transform: translateY(-50%);
   font-size: 2.4rem;
@@ -168,7 +168,7 @@ input {
 
 .input--arrow {
   position: absolute;
-  top: 55%;
+  top: 50%;
   right: 70px;
   transform: translateY(-50%);
   color: #ff3e66;
