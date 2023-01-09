@@ -541,6 +541,29 @@
   .download-app-text br {
     display: none;
   }
+
+  .play-btn {
+    top: 20%;
+    left: 50%;
+    font-size: 2.4rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .play-btn::before {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .play-btn::after {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .download-btn {
+    top: 20%;
+    left: 63%;
+  }
 }
 
 /**************************/
@@ -551,5 +574,28 @@
     align-items: center;
     gap: 1.4rem;
     margin-top: 3.5rem;
+  }
+
+  .play-btn {
+    top: 15%;
+    left: 50%;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .play-btn::before {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .play-btn::after {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .download-btn {
+    top: 15%;
+    left: 65%;
   }
 }

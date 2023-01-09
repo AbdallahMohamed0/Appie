@@ -525,6 +525,10 @@ input {
   width: 100%;
 }
 
+.tutorial-video {
+  position: relative;
+}
+
 .video-description {
   padding-left: 9rem;
   padding-top: 3.5rem;
@@ -590,6 +594,80 @@ input {
 
 .slider-arrow-container:hover .slider-arrow {
   color: #fff;
+}
+
+.play-btn {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff3e66;
+  font-size: 3.6rem;
+  width: 9rem;
+  height: 9rem;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  border: 1px solid transparent;
+  border-bottom-color: #fff;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+}
+
+.play-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  border-bottom-color: transparent;
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: 50%;
+}
+
+.download-btn {
+  position: absolute;
+  top: 30%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+  color: #32c36a;
+  font-size: 3.6rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 
 /**************************/
