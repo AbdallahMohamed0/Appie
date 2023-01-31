@@ -13,6 +13,6 @@ Website sections:
 - call to action section
 - footer
 
-## [live demo](https://appie-abdo.netlify.app/)
+## [live demo](https://abdallahmohamed0.github.io/Appie/)
 
 ![image](https://user-images.githubusercontent.com/113191982/211173184-bdee5c3d-935c-4f90-a827-0c7987256b04.png)
