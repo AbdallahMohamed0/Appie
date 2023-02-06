@@ -1,6 +1,6 @@
 # Appie
 
-## Appie is an amazing website built with HTML, CSS and Java-Script
+## Appie is an amazing website built with HTML and CSS.
 
 Website sections:
 
